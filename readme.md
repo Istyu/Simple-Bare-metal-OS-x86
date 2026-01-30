@@ -92,7 +92,7 @@ make
 
 ## Running (VirtualBox)
 
-1. Running (VirtualBox)
+1. Running (VirtualBox):
   - Type: Other
   - Version: Other/Unknown
 2. No hard disk needed

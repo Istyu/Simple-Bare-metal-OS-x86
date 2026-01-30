@@ -93,8 +93,8 @@ make
 ## Running (VirtualBox)
 
 1. Running (VirtualBox):
-  - Type: Other
-  - Version: Other/Unknown
+   - Type: Other
+   - Version: Other/Unknown
 2. No hard disk needed
 3. Attach `os.bin` as a floppy disk
 4. Boot the VM

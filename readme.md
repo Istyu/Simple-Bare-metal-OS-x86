@@ -76,8 +76,16 @@ baremetal
 
 ## ⚙️ Building
 
+NASM:
 ```bash
-make
+mingw32-make
+```
+
+MSYS2:
+```bash
+dd if=/dev/zero of=disk.img bs=512 count=2048
+dd if=os.bin of=disk.img bs=512 conv=notrunc
+ls -l disk.img
 ```
 
 ---
@@ -115,3 +123,9 @@ The reboot option uses the classic PS/2 controller reset:
 ```c
 outb(0xFE, 0x64);
 ```
+
+---
+
+## Video
+
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch-red?logo=youtube)](https://youtu.be/lgqB_78o-j0)
